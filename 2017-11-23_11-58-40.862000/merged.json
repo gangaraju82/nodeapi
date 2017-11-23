@@ -1,0 +1,10 @@
+{
+ "execution": [
+  {
+   "scenario": {
+    "script": "bears.jmx"
+   }, 
+   "executor": "jmeter"
+  }
+ ]
+}

@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2041" lt="0" ts="1511418532891" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2003" lt="0" ts="1511418532942" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-2" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418533044" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-3" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418533146" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-4" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418533247" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-5" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2005" lt="0" ts="1511418533350" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-6" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2005" lt="0" ts="1511418533449" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-7" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418533549" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-8" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2012" lt="0" ts="1511418533649" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-9" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418533750" s="false" lb="Get all bears" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-10" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418534951" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418534953" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-2" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418535054" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-3" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418535158" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-4" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418535259" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-5" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2003" lt="0" ts="1511418535360" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-6" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2004" lt="0" ts="1511418535458" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-7" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418535561" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-8" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418535662" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-9" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418535762" s="false" lb="get bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-10" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2018" lt="0" ts="1511418536961" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2016" lt="0" ts="1511418536963" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-2" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418537064" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-3" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2009" lt="0" ts="1511418537170" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-4" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2004" lt="0" ts="1511418537269" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-5" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2004" lt="0" ts="1511418537364" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-6" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418537462" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-7" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418537572" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-8" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2005" lt="0" ts="1511418537674" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-9" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418537777" s="false" lb="post bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-10" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;aaaa&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears</java.net.URL>
+</httpSample>
+<httpSample t="2010" lt="0" ts="1511418538984" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-2" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2012" lt="0" ts="1511418538983" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2009" lt="0" ts="1511418539076" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-3" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418539183" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-4" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418539276" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-5" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2011" lt="0" ts="1511418539369" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-6" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2005" lt="0" ts="1511418539472" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-7" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418539581" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-8" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418539682" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-9" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2011" lt="0" ts="1511418539788" s="false" lb="update bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-10" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+ &quot;name&quot;:&quot;bbb&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2004" lt="0" ts="1511418540999" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-1" dt="text" de="" by="2131" ng="10" na="10">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2006" lt="0" ts="1511418540998" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-2" dt="text" de="" by="2131" ng="9" na="9">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2003" lt="0" ts="1511418541088" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-3" dt="text" de="" by="2131" ng="8" na="8">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2005" lt="0" ts="1511418541192" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-4" dt="text" de="" by="2131" ng="7" na="7">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2004" lt="0" ts="1511418541284" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-5" dt="text" de="" by="2131" ng="6" na="6">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418541383" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-6" dt="text" de="" by="2131" ng="5" na="5">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418541479" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-7" dt="text" de="" by="2131" ng="4" na="4">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2007" lt="0" ts="1511418541592" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-8" dt="text" de="" by="2131" ng="3" na="3">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2008" lt="0" ts="1511418541691" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-9" dt="text" de="" by="2131" ng="2" na="2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+<httpSample t="2003" lt="0" ts="1511418541802" s="false" lb="delete bear" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused: connect" tn="Thread Group 1-10" dt="text" de="" by="2131" ng="1" na="1">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+</requestHeader>
+  <responseData class="java.lang.String">java.net.ConnectException: Connection refused: connect&#xd;
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)&#xd;
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#xd;
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.PlainSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.SocksSocketImpl.connect(Unknown Source)&#xd;
+	at java.net.Socket.connect(Unknown Source)&#xd;
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)&#xd;
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.hc.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:318)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.MeasuringConnectionManager$MeasuredConnection.open(MeasuringConnectionManager.java:114)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#xd;
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#xd;
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#xd;
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:695)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:454)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:74)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1189)&#xd;
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1178)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:498)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:424)&#xd;
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:255)&#xd;
+	at java.lang.Thread.run(Unknown Source)&#xd;
+</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/api/bears/5a163215abd18723f810ec7b</java.net.URL>
+</httpSample>
+
+</testResults>

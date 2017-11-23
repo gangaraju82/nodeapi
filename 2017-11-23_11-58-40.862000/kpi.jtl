@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname
+1511418532891,2041,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418532942,2003,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533044,2006,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533146,2006,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533247,2008,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533350,2005,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533449,2005,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533549,2008,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533649,2012,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418533750,2008,Get all bears,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418534951,2007,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418534953,2007,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535054,2007,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535158,2008,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535259,2006,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535360,2003,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535458,2004,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535561,2007,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535662,2007,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418535762,2008,get bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418536961,2018,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418536963,2016,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537064,2008,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537170,2009,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537269,2004,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537364,2004,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537462,2007,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537572,2006,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537674,2005,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418537777,2006,post bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418538984,2010,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418538983,2012,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539076,2009,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539183,2006,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539276,2007,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539369,2011,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539472,2005,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539581,2008,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539682,2007,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418539788,2011,update bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418540999,2004,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-1,false,2131,10,10,0,DESKTOP-CCBRAF7
+1511418540998,2006,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-2,false,2131,9,9,0,DESKTOP-CCBRAF7
+1511418541088,2003,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-3,false,2131,8,8,0,DESKTOP-CCBRAF7
+1511418541192,2005,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-4,false,2131,7,7,0,DESKTOP-CCBRAF7
+1511418541284,2004,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-5,false,2131,6,6,0,DESKTOP-CCBRAF7
+1511418541383,2007,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-6,false,2131,5,5,0,DESKTOP-CCBRAF7
+1511418541479,2008,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-7,false,2131,4,4,0,DESKTOP-CCBRAF7
+1511418541592,2007,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-8,false,2131,3,3,0,DESKTOP-CCBRAF7
+1511418541691,2008,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-9,false,2131,2,2,0,DESKTOP-CCBRAF7
+1511418541802,2003,delete bear,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Thread Group 1-10,false,2131,1,1,0,DESKTOP-CCBRAF7
